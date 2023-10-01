@@ -14,6 +14,9 @@ const BlogList = () => {
   const pagination = () => {
     setPage(page + 1);
   };
+  const paginationBack = () => {
+    setPage(page - 1);
+  };
 
   useEffect(() => {
     const fetchData = async () => {
@@ -87,7 +90,7 @@ const BlogList = () => {
           <li className={`page-item ${page === 1 ? "disabled" : ""}`}>
             <button
               className="page-link"
-              onClick={() => pagination()}
+              onClick={() => paginationBack()}
               disabled={page === 1}
             >
               Previous Page
