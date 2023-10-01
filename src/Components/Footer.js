@@ -23,30 +23,30 @@ function Footer() {
 
         <div className="d-flex justify-content-center my-4">
           <div className="nav-item mx-2">
-            <a className="nav-link text-white font-nav" href="#">
+            <a className="nav-link text-white font-nav px-2" href="#">
               Home
             </a>
           </div>
           <div className="nav-item mx-2">
-            <a className="nav-link text-white font-nav" href="#">
+            <a className="nav-link text-white font-nav px-2" href="#">
               Careers
             </a>
           </div>
           <div className="nav-item mx-2">
-            <a className="nav-link text-white font-nav" href="#">
+            <a className="nav-link text-white font-nav px-2" href="#">
               about
             </a>
           </div>
         </div>
         <hr className="px-5 text-white mx-5" />
         <div className="d-flex justify-content-center">
-          <p className="footer-sub-header-1">
+          <p className="footer-sub-header-1 mt-5">
             Privacy policy | Terms of Service | Returns | Shipping policy | FAQ
             | Contact Us
           </p>
         </div>
-        <div className="d-flex justify-content-center">
-          <p className="footer-sub-header-2">
+        <div className="d-flex justify-content-center ">
+          <p className="footer-sub-header-2 ">
             Copyright © 2023. CreatorMonet Technologies PVT LTD. All rights
             reserved.
           </p>

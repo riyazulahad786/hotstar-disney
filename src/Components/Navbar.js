@@ -8,7 +8,6 @@ function Navbar() {
         <div className="container-fluid px-5">
          
             <img src="https://uploads-ssl.webflow.com/64100316e1db9e6977ed6b0d/641003bfa1af58cf1d874fde_black-background-01.webp" loading="lazy" alt="image"     className="brand"/>
-         
           <button
             className="navbar-toggler"
             type="button"
@@ -28,24 +27,24 @@ function Navbar() {
                 </a>
               </li>
               <li className="nav-item mx-2">
-                <a className="nav-link font-nav" href="#">
+                <a className="nav-link font-nav" href="/">
                   Explore
                 </a>
               </li>
               <li className="nav-item mx-2">
-                <a className="nav-link font-nav" href="#">
+                <a className="nav-link mobile-view font-nav" href="/">
                   Blog
                 </a>
               </li>
               <li className="nav-item mx-2">
-                <a className="nav-link font-nav" href="#">
+                <a className="nav-link font-nav" href="/">
                   About
                 </a>
               </li>
             </ul>
             <div className="d-flex">
               <button className="mx-3 rounded-pill login-btn bg-transparent px-3 py-2">Login </button>
-              <button className="btn btn-dark mx-3 rounded-pill sign-btn px-3 py-2">Sign Up</button>
+              <button className="btn  mx-3 rounded-pill sign-btn px-3 py-2">Sign Up</button>
             </div>
           </div>
         </div>
