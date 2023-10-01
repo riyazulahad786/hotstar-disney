@@ -171,6 +171,12 @@ code {
   margin: 20px 8px 12px 20px;
   color: rgb(255, 255, 255);
 }
+.card-img-top{
+  border-radius: 20px;
+}
+.card-title{
+  font-weight: bold;
+}
 @media (max-width: 768px) {
   .list-filter {
     flex-direction: column;

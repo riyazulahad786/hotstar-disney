@@ -17,22 +17,6 @@ function Home() {
         </button>
         <hr className="px-5 " />
       </div>
-      {/* search */}
-      <div className="input-grp mx-5">
-        <form>
-          <input
-            type="text"
-            class="text-field-2 w-input"
-            placeholder="Search "
-          />
-          <img
-            src="https://uploads-ssl.webflow.com/64100316e1db9e6977ed6b0d/64cde74b8c987a0c529dd02d_search%20(1).png"
-            loading="lazy"
-            alt=""
-            class="image-126"
-          ></img>
-        </form>
-      </div>
     </div>
   );
 }
