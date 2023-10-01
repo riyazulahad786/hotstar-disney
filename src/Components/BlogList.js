@@ -36,7 +36,6 @@ const BlogList = () => {
             type="text"
             className="text-field-2 w-input"
             placeholder="Search by Title"
-            value={searchTerm}
             onChange={(e) => setSearch(e.target.value)}
           />
           <img
@@ -48,7 +47,10 @@ const BlogList = () => {
         </form>
       </div>
       <div className="px-5 row">
-        {data.map((item) => (
+        {data.filter((item)=> {
+          return search.toLocaleLowerCase()==="" ? item : item.data.title.toLocaleLowerCase().includes(search);
+        })
+        .map((item) => (
           <div key={item.id} className="col-md-4 mb-4">
             <div className="card">
               <img
