@@ -201,4 +201,7 @@ code {
   .footer-sub-header-2{
     font-size: 2vw;
   }
+  .heading{
+    font-size: 7vw !important;
+  }
 }
