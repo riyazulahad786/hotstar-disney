@@ -11,9 +11,9 @@ function App() {
       <Navbar/>
       <Router>
         <Routes>
-        <Route exact path='/' element={ <MainPage/>}/>
-          <Route exact path='/home' element={ <Home/>}/>
-          <Route exact path='/blog' element={<BlogList/>}/>
+        <Route exact path='/blog' element={ <MainPage/>}/>
+          <Route exact path='/' element={ <Home/>}/>
+          <Route exact path='/blogs' element={<BlogList/>}/>
         </Routes>
       </Router>
       <Footer/>

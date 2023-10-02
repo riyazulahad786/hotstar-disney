@@ -9,7 +9,7 @@ function MainPage() {
     <div>
        
         <Home/>
-        <BlogList/>
+        {/* <BlogList/> */}
         
     </div>
   )
