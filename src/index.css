@@ -17,7 +17,9 @@ body {
   font-style: normal;
 }
 /* You can add more @font-face rules for different font weights or styles if needed */
-
+.card-vi{
+  border: none !important;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

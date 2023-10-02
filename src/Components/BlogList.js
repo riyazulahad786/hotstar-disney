@@ -57,7 +57,7 @@ const BlogList = () => {
           ></img>
         </form>
       </div>
-      <div className="px-5 mt-5 row">
+      <div className="px-5 mt-5 row ">
         {data
           .filter((item) => {
             return search.toLowerCase() === ""
@@ -66,7 +66,7 @@ const BlogList = () => {
           })
           .map((item) => (
             <div key={item.id} className="col-md-4 mb-4">
-              <div className="card">
+              <div className="card-vi">
                 <img
                   src={item.data.featured_image.url}
                   className="card-img-top"

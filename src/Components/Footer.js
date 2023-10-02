@@ -5,7 +5,7 @@ function Footer() {
     <div>
       <div className="footer-main">
         <div className="d-flex justify-content-center">
-          <h6 className="text-white contact-footer">Contact Us</h6>
+          <h6 className="text-white contact-footer mt-5">Contact Us</h6>
         </div>
         <div className="d-flex justify-content-center">
           <h1 className="text-white ">Are You a Flimmaker?</h1>
